@@ -49,6 +49,7 @@ html,body {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: 'lobster two';
 }
 
 /* end of overide of browser default styles */
