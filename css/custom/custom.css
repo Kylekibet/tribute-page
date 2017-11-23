@@ -1,0 +1,139 @@
+/* importing fonts from googleapis
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster|Lobster+Two|Oswald|Pacifico|Permanent+Marker|Teko|Timmana');
+
+ end importing fonts from googleapis*/
+
+/* importing fonts from local directory */
+
+@font-face {
+  font-family: 'lobster';
+  src: url('../../fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'lobster two';
+  src: url('../../fonts/Lobster_Two/LobsterTwo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'berkshire swash';
+  src: url('../../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('../../fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url('../../fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'permanent marker';
+  src: url('../../fonts/Permanent_Marker/PermanentMarker-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: teko;
+  src: url('../../fonts/Teko/Teko-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: timmana;
+  src: url('../../fonts/Timmana/Timmana-Regular.ttf') format('truetype');
+}
+/* end importing fonts from local directory */
+
+
+/* overide browser default styles */
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: timmana;
+}
+
+/* end of overide of browser default styles */
+
+/* background setup */
+
+.custom-background {
+  height: 50%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  top: 0;
+}
+
+/* end background setup */
+
+/* text on top of background */
+
+
+
+
+/* end of text on top of background */
+
+
+/* Landing page css */
+
+.custom-intro {
+  height: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../../image/intro/intro.svg) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.custom-intro .custom-inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.custom-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.custom-content h1 {
+  font-family: cursive;
+  color: #ddd;
+  /*text-shadow: 0px 0px 300px lime;*/
+  font-size: 800%;
+  text-transform: uppercase;
+}
+
+.custom-btn {
+  border: 3px solid #036A81;
+  border-radius: 9px;
+  font-family: fantasy;
+  color: #036A81;
+  font-size: 135%;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.custom-btn:hover {
+  color: #f9f3f4;
+  border:  3px solid #f9f3f4;
+}
+
+@media screen and (max-width: 768px) {
+
+  .custom-content h1 {
+    font-size: 400%;
+  }
+
+  .custom-btn {
+    font-size: 110%;
+    padding: 7px 15px;
+  }
+}
