@@ -49,7 +49,6 @@ html,body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: timmana;
 }
 
 /* end of overide of browser default styles */
@@ -105,10 +104,10 @@ html,body {
 }
 
 .custom-btn {
-  border: 3px solid #036A81;
+  border: 3px solid #c4fff9;
   border-radius: 9px;
   font-family: fantasy;
-  color: #036A81;
+  color: #c4fff9;
   font-size: 135%;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -119,7 +118,6 @@ html,body {
   color: #f9f3f4;
   border:  3px solid #f9f3f4;
 }
-
 @media screen and (max-width: 768px) {
 
   .custom-content h1 {
