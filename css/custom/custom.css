@@ -118,6 +118,21 @@ html,body {
   color: #f9f3f4;
   border:  3px solid #f9f3f4;
 }
+
+.custom-header {
+  background-color: tomato;
+}
+
+.custom-header-info {
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+.custom-header-info .middle-text {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 
   .custom-content h1 {
