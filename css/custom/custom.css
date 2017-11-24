@@ -50,6 +50,8 @@ html,body {
   height: 100%;
   width: 100%;
   font-family: 'lobster two';
+  font-size: 18px;
+  background-color: #bbb;
 }
 
 /* end of overide of browser default styles */
@@ -130,7 +132,10 @@ html,body {
   display: table-cell;
 
 }
-
+.text-year {
+  font-family: lobster;
+  font-size: 20px;
+}
 @media screen and (max-width: 768px) {
 
   .custom-content-header h1 {
@@ -141,4 +146,8 @@ html,body {
     font-size: 110%;
     padding: 7px 15px;
   }
+}
+h2,ul {
+  margin-left: 3%;
+  margin-right: 3%
 }
